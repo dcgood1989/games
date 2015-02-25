@@ -1,0 +1,6 @@
+<%= @game.title %>
+<%= @game.year %>
+<%= @game.system %>
+
+<%= link_to "Edit", edit_game_path %>
+<%= link_to "Delete", game_path, method: :delete, data: {confirm: "Are you sure you want to delete"}%>
